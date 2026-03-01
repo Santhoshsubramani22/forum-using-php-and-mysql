@@ -1,0 +1,70 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+}
+.container {
+width: 80%;
+margin: auto;
+overflow: hidden;
+background: #fff;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+color: #333;
+}
+form {
+margin-bottom:}
+20px;
+input[type="text"], textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ddd;
+}
+button {
+padding: 10px 15px;
+background: #5cb85c;
+color: white;
+border: none;
+cursor: pointer;
+}
+.topics, .replies {
+margin-top: 20px;
+}
+.topic, .reply {
+border: 1px solid #ddd;
+padding: 15px;
+margin-bottom: 10px;
+}
+.topic h3, .reply p {
+margin: 0;
+}
+.btn {
+border-radius: 40px;
+border:0;
+font-size:1.8rem ;
+font-weight: 600;
+margin: 1rem 0;
+padding: 2rem 3rem;
+text-transform: uppercase;
+white-space: nowrap;
+cursor: pointer;
+}
+.btn--pri{
+background: #d31515;
+color: white;
+}
+.btn--pri:hover{
+background:rgb(182, 26, 26)
+}
+.btn--vot{
+background: #f0f325;
+color: rgb(0, 0, 0);
+}
+.btn--thi{
+background: #578bfa;
+color: rgb(0, 0, 0);
+}
